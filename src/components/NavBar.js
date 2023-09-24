@@ -19,10 +19,10 @@ function NavBar() {
         <a href="#">
           <p>Home</p>
         </a>
-        <a href="/#progress">
+        <a href="#progress">
           <p>Progress</p>
         </a>
-        <Link to="/">
+        <Link to="#">
           <p>Contact</p>
         </Link>
       </div>
