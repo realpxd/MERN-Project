@@ -62,13 +62,14 @@ body {
 }
 
 .auth-container .inputField label {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-weight: 600;
 }
 
 .auth-container .inputField input {
   width: 90%;
-  padding: 0.5rem;
+  padding: 0.7rem;
+  font-size: 1.2rem;
   margin: 0.5rem 0;
   border: none;
   outline: none;
@@ -80,7 +81,7 @@ body {
 
 .auth-container .auth-submitBtn button {
 
-  padding: 0.6rem 1rem;
+  padding: 0.9rem 1.4rem;
   margin: 0.5rem 0;
   border: none;
   outline: none;
@@ -88,7 +89,7 @@ body {
   background-color: #0e489e;
   color: #fff;
   cursor: pointer;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 600;
 }
 
@@ -168,8 +169,8 @@ body {
 
 .c-a img {
   position: absolute;
-  top: 9rem;
-  left: 45rem;
+  top: 12rem;
+  left: 55rem;
   width: 20%;
   animation: caImgFloat 1s linear infinite alternate-reverse;
   z-index: 7;
@@ -208,7 +209,7 @@ body {
 
 .c-b h2,
 .c-c h2 {
-  font-size: 2rem;
+  font-size: 2.2rem;
   color: #fff;
   /* text-shadow: -3px -2.5px 0px #797979; */
   /* add a 3d shadow to this text element */
@@ -256,7 +257,7 @@ body {
   justify-content: left;
   align-items: flex-start;
   flex-direction: column;
-  width: 40%;
+  width: 37%;
   color: white;
   padding: 1rem;
   overflow: hidden;
@@ -275,7 +276,7 @@ body {
   outline: none;
   color: white;
   background: transparent;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   font-weight: 600;
   border-radius: 2rem;
   cursor: pointer;
@@ -296,8 +297,14 @@ body {
 }
 
 .b-a {
-  margin: 5rem auto 0 3rem;
+  margin: 3rem auto 0 3rem;
   z-index: 9;
+}
+.b-a h1{
+  font-size: 2.5rem;
+}
+.b-a p {
+  font-size: 1.2rem;
 }
 
 .b-b {
@@ -346,8 +353,8 @@ body {
   justify-content: flex-start;
   flex-direction: column;
   align-items: center;
-  width: 250px;
-  height: 300px;
+  width: 300px;
+  height: 350px;
   background: #f3f3f3;
   color: black;
   border-radius: 2rem;
@@ -417,7 +424,7 @@ body {
 }
 
 .cardsCont .cards .card h3 {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-weight: 600;
   margin-top: 1rem;
   padding: 0.5rem auto;
@@ -433,13 +440,13 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: left;
-  margin: 1rem auto;
+  margin: 2rem auto;
   width: 85%;
   padding: 0;
 }
 
 .cards .card div p {
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   font-weight: 500;
   text-align: justify;
   margin: auto;
@@ -526,25 +533,25 @@ a {
 
   .NavBar {
     padding: 0 0.5rem;
-    height: 3rem;
+    height: 4rem;
   }
 
   .NavBar img {
-    height: 2rem;
-    width: 4rem;
+    height: 3rem;
+    width: 5rem;
     margin-left: -0.5rem;
   }
 
   .NavBar button {
     display: block;
     margin-right: 1.5rem;
-    margin-top: -0.5rem;
+    margin-top: 0;
     border: none;
     background: none;
     outline: none;
     width: auto;
     color: #fff;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     text-align: center;
   }
 
@@ -561,9 +568,9 @@ a {
   }
 
   .NavBar div p {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     text-align: center;
-    margin: 0.5rem auto;
+    margin: 1rem auto;
     width: max-content;
 
   }
@@ -635,7 +642,9 @@ a {
   }
 
   .c-c h2 {
+    margin-top: 2rem;
     margin-bottom: 2rem;
+    font-size: 1.7rem;
   }
 
   .c-c h2::after {
@@ -681,8 +690,10 @@ a {
   }
 
   .b-b {
+    display: block;
     width: 100%;
-    padding-top: 2rem;
+    padding-top: 5rem;
+    
   }
 
 
@@ -697,13 +708,13 @@ a {
   }
 
   .cardsCont .cards {
-    gap: 2rem;
+    gap: 1rem;
   }
 
   .cardsCont .cards .card {
     scroll-snap-align: start;
-    width: 150px;
-    height: 200px;
+    width: 200px;
+    height: 250px;
   }
 
   .cardsCont .cards .card:hover {
@@ -727,7 +738,7 @@ a {
   .b-c .cardsCont .cards .card {
     scroll-snap-align: start;
     width: 210px;
-    height: 250px;
+    height: 270px;
   }
 
   .b-c .card img {
