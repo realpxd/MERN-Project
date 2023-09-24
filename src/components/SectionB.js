@@ -31,7 +31,7 @@ const SectionB = () => {
             <div className="block b-b">
                 <h2>What have I learned so far...</h2>
                 <div className="cardsCont">
-                    <img className="bikeImg" src="./bike.png" alt="" />
+                    {/* <img className="bikeImg" src="./bike.png" alt="" /> */}
                     <div className="cards">
                         {data.map((put, index) => (
                             <Link to={ `/Home/${put.title}`} key={index}>

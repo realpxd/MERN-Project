@@ -1,5 +1,5 @@
-import React, { Component, useState } from "react";
-import { Link } from 'react-router-dom';
+import React, {  useState } from "react";
+// import { Link } from 'react-router-dom';
 
 export default function SignUp() {
   const [fname, setFname] = useState("");
@@ -36,7 +36,11 @@ export default function SignUp() {
           }, 1000);
 
       });
-  };
+  
+      setTimeout(() => {
+        window.location.href = "./Home";
+      }, 1000);
+    };
 
   return (
     <div className="auth-wrapper">
